@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49bc86e4ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo_img.png" class="logo">
+                <ul>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Hello all,<br> I'm <span>DEEPAKRAJAN R</span></h1>
+                <p>Computer Science Engineer</p>
+            </div>
+        </div>
+    </div>
+    <!-- ---------- About section--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mypi_1.jpg" class="pic1">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an computer science and engineer student in sri eshwar college of engineering
+                        which is located in kinathukadavu. I consider myself a responsible and orderly person.
+                        I am looking for my first working experience.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certificate')">Certificate</p>
+                    </div>
+                    <div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming languages</span><br><br>JAVA - Programming<br><br>C - Programming
+                                </li>
+                                <li><span>WEB development</span><br><br>Web app development</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Secondary schooling</span><br><br>Vighneswar vidhya mandhir matric </li>
+                                <li><span>Higher Secondary schooling</span><br><br>Vighneswar vidhya mandhir matric
+                                </li>
+                                <li><span>College</span><br><br>Sri Eshwar College of engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="tab-contents" id="certificate">
+                            <ul>
+                                <li><span>Udemy</span><br><br>Data structure and algorithm using C</li>
+                                <li><span>Solo learn</span><br><br>My SQL</li>
+                                <li><span>Front - end development</span><br><br>Coursera</li>
+                                <li><span>Basic SQL</span><br><br>Hacker Ranker</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------- Services section --------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Website</h1>
+            <div class="services-list">
+                <div>
+                    <h2>HOME INTERIOR DESIGN </h2>
+                    <p> HTML & CSS</p>
+                    <a href="#">Designing a home design website requires careful planning and consideration
+                        to ensure a user-friendly and visually appealing experience. Here is a suggested
+                        methodology for creating a home design website Establish specific goals for the website,
+                        such as increasing user engagement, driving conversions, or building brand awareness.</a>
+                </div>
+                <div>
+                    <h2>GREEN WAY</h2>
+                    <p>Language : JAVA</p>
+                    <a href="#">Farm management is the process of planning,organizing and controlling the operations of
+                        a farm to ensure maximum productivity,profitability,and sustainability.It involves
+                        making decisions about crop selection,land use,financial planning,marketing,and many
+                        other aspects of farming.Good farm management practices can lead to increase yields,
+                        reduced costs,and improved environmental sustainability</a>
+                </div>
+                <div>
+                    <h2>FISHARY MANAGEMENT</h2>
+                    <p>HTML,CSS & JAVASCRIP</p>
+                    <a href="#">A fishery management system is a comprehensive framework designed to regulate and
+                        control the fishing industry, ensuring the sustainable use of fishery resources. It involves
+                        various policies, strategies, and practices aimed at conserving fish populations, maintaining
+                        ecological balance, and supporting the livelihoods of those dependent on fishing.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------- Portfolio --------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    image 1
+                    <!-- image of work -->
+                </div>
+                <div class="work">
+                    image 2
+                    <!-- image of work -->
+                </div>
+                <div class="work">
+                    image 3
+                    <!-- image of work -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------- contact ---------/ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i>deepakrajan711@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8610907688</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        <a herf="https://instagram.com/since_stupid_in_2k?igshid=MzNlNGNkZWQ4Mg=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a herf="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xbjvjdav" method="POST">
+                        <label>
+                            Your name:
+                            <textarea name="name"></textarea>
+                        </label>
+                        <label>
+                            Your email:
+                            <input type="email" name="email">
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+
+                        <!-- your other form fields go here -->
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
